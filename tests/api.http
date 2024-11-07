@@ -42,7 +42,7 @@ GET {{baseUrl}}/transactions?page=1&limit=10
 Authorization: Bearer {{token}}
 
 ### Get Transaction by ID
-GET {{baseUrl}}/transactions/1
+GET {{baseUrl}}/transactions/4
 Authorization: Bearer {{token}}
 
 ### Update Transaction
@@ -58,7 +58,7 @@ Content-Type: application/json
 }
 
 ### Delete Transaction
-DELETE {{baseUrl}}/transactions/1
+DELETE {{baseUrl}}/transactions/3
 Authorization: Bearer {{token}}
 
 ### Get Summary
@@ -66,7 +66,7 @@ GET {{baseUrl}}/reports/summary
 Authorization: Bearer {{token}}
 
 ### Get Monthly Report
-GET {{baseUrl}}/reports/monthly?year=2024&month=10
+GET {{baseUrl}}/reports/monthly?year=2024&month=11
 Authorization: Bearer {{token}}
 
 ### Get Category Report
